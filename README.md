@@ -16,7 +16,7 @@ services:
 
 #### [Gravatar Extension](https://github.com/charlesparvin/TwigExtensions/blob/master/GravatarExtension.php)
 
-Converts an email to a [Gravatar](https://www.gravatar.com) image URL. All parameters are optional)
+Converts an email to a [Gravatar](https://www.gravatar.com) image URL. All parameters are optional (defaults to 64*64 avatars)
 
 ```
 <img src="{{ user.email|gravatar(image_size_integer, default_image_url_string, image_rating_string) }}" />
@@ -24,7 +24,7 @@ Converts an email to a [Gravatar](https://www.gravatar.com) image URL. All param
 
 #### [HTML Entities Decode Extension](https://github.com/charlesparvin/TwigExtensions/blob/master/HtmlEntitiesDecodeExtension.php)
 
-Runs html_decode_entities on your text
+Runs `html_decode_entities()` on your text
 
 ```
 {{ myContent|htmldecode }}
