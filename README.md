@@ -1,6 +1,6 @@
 ### What is this?
 
-I'm using this repository to share a few twig extensions that you can freely include in your projects
+I'm using this repository to share a few Twig extensions that you can freely include in your projects
 
 ### Usage
 
@@ -14,7 +14,7 @@ services:
       - { name: twig.extension }
 ```
 
-#### [Gravatar Twig Extension](https://github.com/charlesparvin/TwigExtensions/blob/master/GravatarExtension.php)
+#### [Gravatar Extension](https://github.com/charlesparvin/TwigExtensions/blob/master/GravatarExtension.php)
 
 Converts an email to a [Gravatar](https://www.gravatar.com) image URL. All parameters are optional)
 
